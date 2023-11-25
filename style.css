@@ -69,8 +69,8 @@ body{
   width:fit-content;
   padding:10px;
   border-radius: 10px;
-  background-color: #3882f6;
-  color:white;
+  background-color: #d2b201;
+  color:black;
   font-size: large;
   font-weight:bold;
   
@@ -82,33 +82,44 @@ body{
     
   }
 
+  .content{
+    background-color: black;
+    color:white;
+    padding:10px;
+    padding-bottom: 150px;
+
+  }
+
   .content h1{
     text-align: center;
+    margin-bottom:100px;
+
   }
 
   .content .boxes{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap:50px;
-  
+    align-items: baseline;
+    margin:0 150px;
+    font-weight: bold;
   }
 
   .box1 , .box2, .box3, .box4{
     border:solid;
-    border-color:#3882f6;
+    border-color:yellow;
     border-radius:10px;
-    height:150px;
-    width:150px;
-    text-align: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    height:250px;
+    width:auto;
   }
 
 .content1, .content2,.content3,.content4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-content:center;
 }
 
 .quotation{
@@ -140,9 +151,13 @@ body{
    
 }
 
+.quotation{
+    margin:0;
+}
+
 .signup{
     display: flex;
-    background-color: #3882f6;
+    background-color: #043559;
     gap:20px;
     justify-content: space-around;
     margin:100px 200px;
@@ -161,12 +176,13 @@ body{
 .signup button{
     display: flex;
    padding:10px;
-   background-color: #3882f6;
-   color:whitesmoke;
-   border:solid whitesmoke;
+   background-color: #d2b201;
+   color:black;
+   border:solid  #d2b201;
    flex-basis:100px;
    justify-content: center;
    border-radius: 10px;
+   font-weight: bold;
 }
 
 .footer{
