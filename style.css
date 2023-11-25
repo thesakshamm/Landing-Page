@@ -31,6 +31,10 @@ body{
     font-weight: lighter;
 }
 
+.header a:hover{
+    color:darkgrey;
+}
+
 .header-1 img{
    
     margin-top: 30px;
@@ -74,7 +78,10 @@ body{
   color:black;
   font-size: large;
   font-weight:bold;
-  
+  }
+
+  .header-2 button:hover{
+    background-color: darkgoldenrod;
   }
 
   .header-2 p{
