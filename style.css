@@ -21,8 +21,9 @@ body{
     
 }
 
-.header ul{
+.header ul, a{
     list-style: none;
+    text-decoration: none;
     display:flex;
     gap:20px;
     font-size: 18px;
