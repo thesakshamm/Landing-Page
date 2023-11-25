@@ -200,3 +200,9 @@ body{
     padding:30px;
 }
 
+.preview{
+    margin:0;
+    padding:0;
+    background-color: #043559;
+}
+
