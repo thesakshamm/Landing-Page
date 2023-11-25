@@ -135,7 +135,7 @@ body{
     background-color: #3882f6;
     gap:20px;
     justify-content: space-around;
-    margin:200px 200px;
+    margin:100px 200px;
     padding:10px;
     border-radius: 10px;
     color:whitesmoke;
@@ -157,7 +157,11 @@ body{
    flex-basis:100px;
    justify-content: center;
    border-radius: 10px;
-   
-  
+}
 
+.footer{
+    background-color: #1f2937;
+    color:#e5e7eb;
+    text-align:center;
+    padding:30px;
 }
