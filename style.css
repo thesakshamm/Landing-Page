@@ -129,3 +129,35 @@ body{
     display: flex;
    
 }
+
+.signup{
+    display: flex;
+    background-color: #3882f6;
+    gap:20px;
+    justify-content: space-around;
+    margin:200px 200px;
+    padding:10px;
+    border-radius: 10px;
+    color:whitesmoke;
+    align-items:center;
+    
+}
+
+.words p{
+    font-size: smaller;
+    margin-top: 0;
+}
+
+.signup button{
+    display: flex;
+   padding:10px;
+   background-color: #3882f6;
+   color:whitesmoke;
+   border:solid whitesmoke;
+   flex-basis:100px;
+   justify-content: center;
+   border-radius: 10px;
+   
+  
+
+}
