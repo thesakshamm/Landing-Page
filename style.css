@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     
+    
 }
 
 .header ul{
@@ -24,6 +25,7 @@ body{
     gap:20px;
     font-size: 18px;
     color:#e5e7eb;
+    font-weight: lighter;
 }
 
 .header h3{
@@ -32,6 +34,8 @@ body{
 }
   .header-2{
     display:flex;
+    margin:120px 0;
+    align-items: center;
     
   }
   .text{
